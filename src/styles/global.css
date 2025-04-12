@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+/* Styles pour les messages de validation et d'erreur */
+.form-message {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-message.success {
+  background-color: #d4edda; /* Vert clair */
+  color: #155724; /* Vert foncé */
+  border: 1px solid #c3e6cb;
+}
+
+.form-message.error {
+  background-color: #f8d7da; /* Rouge clair */
+  color: #721c24; /* Rouge foncé */
+  border: 1px solid #f5c6cb;
+}
