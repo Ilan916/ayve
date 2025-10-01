@@ -1,5 +1,25 @@
 @import "tailwindcss";
 
+/* Font definitions */
+:root {
+  --font-chillax: 'Chillax', sans-serif;
+  --font-satoshi: 'Satoshi', sans-serif;
+  --font-general-sans: 'General Sans', sans-serif;
+}
+
+/* Font utility classes */
+.font-chillax {
+  font-family: var(--font-chillax);
+}
+
+.font-satoshi {
+  font-family: var(--font-satoshi);
+}
+
+.font-general-sans {
+  font-family: var(--font-general-sans);
+}
+
 /* Styles pour les messages de validation et d'erreur */
 .form-message {
   padding: 10px;
