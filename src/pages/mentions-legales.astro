@@ -1,0 +1,118 @@
+---
+import "../styles/global.css";
+import Nav from '../components/nav.astro';
+import Footer from '../components/footer.astro';
+import HeaderPage from '../components/HeaderPage.astro';
+---
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentions légales – Ayve | Agence web Paris</title>
+  <meta name="description" content="Découvrez les mentions légales du site Ayve, agence web spécialisée dans la création de sites modernes et performants. Retrouvez les informations légales, hébergement, propriété intellectuelle et données personnelles." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&f[]=chillax@200,300,400,500,600,700,1&f[]=general-sans@200,201,300,301,400,401,500,501,600,601,700,701,1,2&display=swap" rel="stylesheet"></link>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <Nav />
+  <HeaderPage title="Mentions Légales" subtitle="Informations légales et mentions obligatoires" />
+  <div class="bg-white px-6 pb-20 lg:px-8 font-satoshi">
+  <div class="mx-auto max-w-3xl text-base/7 text-gray-700">
+    <p class="text-xl/8">
+      Conformément aux dispositions des articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l'Économie Numérique (LCEN), il est porté à la connaissance des utilisateurs et visiteurs du site ayve.fr
+      les présentes mentions légales.
+    </p>
+    <div class="mt-10 max-w-2xl text-gray-600">
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900">1. Éditeur du site</h2>
+      <ul role="list" class="mt-8 max-w-xl space-y-5 text-gray-600">
+        <li class="flex gap-x-3">
+          <span><strong class="font-semibold text-gray-900">Nom Commercial :</strong> Ayve</span>
+        </li>
+        <li class="flex gap-x-3">
+          <span><strong class="font-semibold text-gray-900">Statut juridique :</strong> Micro-entreprise (auto-entrepreneur)</span>
+        </li>
+        <li class="flex gap-x-3">
+          <span><strong class="font-semibold text-gray-900">Responsable de la publication :</strong> Ilan Lallemand</span>
+        </li>
+        <li class="flex gap-x-3">
+          <span><strong class="font-semibold text-gray-900">Adresse du siège social :</strong> Savigny-sur-Orge</span>
+        </li>
+        <li class="flex gap-x-3">
+          <span><strong class="font-semibold text-gray-900">SIRET :</strong> 88503803400025</span>
+        </li>
+        <li class="flex gap-x-3">
+          <span><strong class="font-semibold text-gray-900">Email :</strong> contact@ayve.fr</span>
+        </li>
+        <li class="flex gap-x-3">
+          <span><strong class="font-semibold text-gray-900">Téléphone :</strong> +33 6 95 76 70 84</span>
+        </li>
+      </ul>
+      <h2 class="mt-16 text-pretty text-3xl font-semibold tracking-tight text-gray-900">2. Hébergement</h2>
+      <p class="mt-6">
+        Le site est hébergé par :
+        <br /> Vercel Inc.
+        <br /> 340 S Lemon Ave #4133 Walnut, CA 91789
+        <br /> États-Unis
+        <br /> https://vercel.com
+      </p>
+      <p class="mt-6">
+        Le nom de domaine est enregistré auprès de :
+        <br /> Hostinger International Ltd.
+        <br /> 61 Lordou Vironos Street
+        <br /> 6023 Larnaca, Chypre
+        <br /> https://www.hostinger.fr
+      </p>
+    </div>
+
+    <div class="mt-16 max-w-2xl text-gray-600">
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900">3. Propriété intellectuelle</h2>
+      <p class="mt-6">Le site ayve.fr et son contenu (textes, images, graphismes, logo, design, etc.) sont la propriété exclusive de Ayve, sauf mention contraire.
+      Toute reproduction, représentation, modification, publication ou adaptation de tout ou partie des éléments du site, quel que soit le moyen ou procédé utilisé, est interdite sans autorisation écrite préalable.</p>
+    </div>
+
+    <div class="mt-16 max-w-2xl text-gray-600">
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900">4. Données personnelles (RGPD)</h2>
+      <p class="mt-6">
+        Les informations recueillies via le formulaire de contact (nom, email, téléphone, message) sont destinées uniquement à répondre aux demandes des utilisateurs.
+      </p>
+      <ul role="list" class="mt-8 max-w-xl space-y-4 text-gray-600">
+        <li class="flex gap-x-3">
+          <span><strong class="font-semibold text-gray-900">Responsable du traitement :</strong> Ayve</span>
+        </li>
+        <li class="flex gap-x-3">
+          <span><strong class="font-semibold text-gray-900">Durée de conservation :</strong> maximum 3 ans</span>
+        </li>
+        <li class="flex gap-x-3">
+          <span><strong class="font-semibold text-gray-900">Droits des utilisateurs :</strong> conformément au RGPD, vous disposez d’un droit d’accès, de rectification et de suppression de vos données en écrivant à contact@ayve.fr.</span>
+        </li>
+      </ul>
+    </div>
+
+        <div class="mt-16 max-w-2xl text-gray-600">
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900">5. Cookies</h2>
+      <p class="mt-6">Le site peut utiliser des cookies afin de :</p>
+            <ul role="list" class="mt-8 max-w-xl space-y-4 text-gray-600">
+        <li class="flex gap-x-3">
+          <span>mesurer l’audience (Google Analytics, Microsoft Clarity),</span>
+        </li>
+        <li class="flex gap-x-3">
+          <span>améliorer l’expérience utilisateur.</span>
+        </li>
+      </ul>
+      <p class="mt-6">Un bandeau d’information permet à l’utilisateur d’accepter ou de refuser l’utilisation des cookies lors de sa première visite.</p>
+    </div>
+
+        <div class="mt-16 max-w-2xl text-gray-600">
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900">6. Responsabilité</h2>
+      <p class="mt-6">Ayve s’efforce de fournir sur son site des informations fiables et à jour. Toutefois, des erreurs ou omissions peuvent survenir.
+Ayve ne saurait être tenu responsable de tout dommage direct ou indirect résultant de l’utilisation du site ou de l’impossibilité d’y accéder.</p>
+    </div>
+  </div>
+</div>
+<Footer />
+<script type="module" src="/scripts/appear.js"></script>
+</body>
+</html>

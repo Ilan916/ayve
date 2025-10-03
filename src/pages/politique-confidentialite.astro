@@ -1,0 +1,104 @@
+---
+import "../styles/global.css";
+import Nav from '../components/nav.astro';
+import Footer from '../components/footer.astro';
+import HeaderPage from '../components/HeaderPage.astro';
+---
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentions Légales</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&f[]=chillax@200,300,400,500,600,700,1&f[]=general-sans@200,201,300,301,400,401,500,501,600,601,700,701,1,2&display=swap" rel="stylesheet"></link>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <Nav />
+  <HeaderPage title="Politique de Confidentialité" subtitle="Vos données, notre priorité" />
+  <div class="bg-white px-6 lg:px-8">
+  <div class="mx-auto max-w-3xl text-base/7 text-gray-700">
+    <p class="text-xl/8">Chez Ayve, la protection de vos données personnelles est une priorité. La présente politique de confidentialité a pour objectif de vous informer sur la manière dont vos données sont collectées, utilisées et protégées lorsque vous utilisez le site ayve.fr.</p>
+    
+    <div class="mt-10 max-w-none">
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 mb-6">1. Collecte des données personnelles</h2>
+      <div class="text-gray-600 mb-8">
+        <p class="mb-4">Lorsque vous utilisez le formulaire de contact ou interagissez avec notre site, nous pouvons collecter les données suivantes :</p>
+        <ul role="list" class="mt-4 space-y-2 list-disc list-inside ml-4">
+          <li>Nom et prénom</li>
+          <li>Adresse email</li>
+          <li>Numéro de téléphone</li>
+          <li>Contenu du message transmis via le formulaire</li>
+        </ul>
+        <p class="mt-4">Ces données sont fournies volontairement par l'utilisateur dans le cadre de sa demande.</p>
+      </div>
+
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 mb-6">2. Finalité de la collecte</h2>
+      <div class="text-gray-600 mb-8">
+        <p class="mb-4">Les données collectées sont utilisées uniquement pour :</p>
+        <ul role="list" class="mt-4 space-y-2 list-disc list-inside ml-4">
+          <li>Répondre à vos demandes via le formulaire de contact</li>
+          <li>Assurer le suivi commercial des prospects et clients</li>
+          <li>Améliorer nos services et la qualité de notre site</li>
+        </ul>
+        <p class="mt-4">Aucune donnée n'est vendue ni transmise à des tiers à des fins commerciales.</p>
+      </div>
+
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 mb-6">3. Hébergement et sécurité</h2>
+      <div class="text-gray-600 mb-8">
+        <p class="mb-2">Le site est hébergé par Vercel Inc.</p>
+        <p>Toutes les données transmises via le formulaire sont protégées par le protocole HTTPS.</p>
+      </div>
+
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 mb-6">4. Conservation des données</h2>
+      <div class="text-gray-600 mb-8">
+        <p>Les données collectées via le formulaire de contact sont conservées pour une durée maximale de 3 ans à compter de la dernière interaction.</p>
+      </div>
+
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 mb-6">5. Vos droits (RGPD)</h2>
+      <div class="text-gray-600 mb-8">
+        <p class="mb-4">Conformément au Règlement Général sur la Protection des Données (RGPD – UE 2016/679), vous disposez des droits suivants :</p>
+        <ul role="list" class="mt-4 space-y-2 list-disc list-inside ml-4">
+          <li><strong>Droit d'accès :</strong> obtenir confirmation que vos données sont traitées et en recevoir une copie.</li>
+          <li><strong>Droit de rectification :</strong> corriger vos données si elles sont inexactes ou incomplètes.</li>
+          <li><strong>Droit à l'effacement :</strong> demander la suppression de vos données.</li>
+          <li><strong>Droit d'opposition :</strong> refuser l'utilisation de vos données à certaines fins.</li>
+          <li><strong>Droit à la portabilité :</strong> recevoir vos données dans un format structuré.</li>
+        </ul>
+        <p class="mt-4">👉 Pour exercer vos droits, vous pouvez nous écrire à : <a href="mailto:contact@ayve.fr" class="text-blue-600 hover:underline">contact@ayve.fr</a></p>
+      </div>
+
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 mb-6">6. Cookies</h2>
+      <div class="text-gray-600 mb-8">
+        <p class="mb-4">Le site ayve.fr utilise des cookies afin de :</p>
+        <ul role="list" class="mt-4 space-y-2 list-disc list-inside ml-4">
+          <li>Mesurer l'audience et analyser le trafic (Google Analytics, Microsoft Clarity)</li>
+          <li>Améliorer l'expérience utilisateur</li>
+        </ul>
+        <p class="mt-4">Lors de votre première visite, un bandeau vous permet d'accepter ou de refuser l'utilisation des cookies. Vous pouvez modifier vos préférences à tout moment via les paramètres de votre navigateur.</p>
+      </div>
+
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 mb-6">7. Services tiers</h2>
+      <div class="text-gray-600 mb-8">
+        <p class="mb-4">Le site peut inclure des outils tiers susceptibles de déposer des cookies, tels que :</p>
+        <ul role="list" class="mt-4 space-y-2 list-disc list-inside ml-4">
+          <li><strong>Google Analytics (GA4)</strong> → analyse du trafic</li>
+          <li><strong>Microsoft Clarity</strong> → cartes de chaleur et enregistrements de navigation</li>
+        </ul>
+        <p class="mt-4">Ces services disposent de leurs propres politiques de confidentialité.</p>
+      </div>
+
+      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 mb-6">8. Modifications de la politique</h2>
+      <div class="text-gray-600 mb-8">
+        <p>La présente politique de confidentialité peut être mise à jour à tout moment. La date de dernière mise à jour est indiquée ci-dessous.</p>
+        <p class="mt-4 text-sm italic">Dernière mise à jour : 3 octobre 2025</p>
+      </div>
+    </div>
+  </div>
+</div>
+<Footer />
+<script type="module" src="/scripts/appear.js"></script>
+</body>
+</html>
