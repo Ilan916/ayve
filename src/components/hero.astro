@@ -10,10 +10,12 @@
         Faites en sorte que la vôtre vous apporte des clients dès la première impression.
       </p>
       <div class="mt-10 flex items-center justify-center gap-x-6 animate-on-scroll">
-        <a href="/rendez-vous" class="rounded-md bg-[#5974be] px-3.5 py-2.5 text-sm font-semibold text-[#fff] shadow-sm transform transition duration-200 hover:shadow-lg hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white font-satoshi"> Obtenir mon audit gratuit </a>
-        <p class="text-sm/6 font-semibold text-white font-satoshi italic">
+  <a href="#contact-form" class="rounded-md bg-[#5974be] px-3.5 py-2.5 text-sm font-semibold text-[#fff] shadow-sm transform transition duration-200 hover:shadow-lg hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white font-satoshi scroll-to-contact"> Obtenir mon audit gratuit </a>
+          <p class="text-sm/6 font-semibold text-white font-satoshi italic">
           Sans engagement
         </p>
+</div>
+
       </div>
       <svg viewBox="0 0 1024 1024" aria-hidden="true" class="absolute left-1/2 top-1/2 -z-10 size-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] animate-on-scroll">
         <circle r="512" cx="512" cy="512" fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)" fill-opacity="0.7" />
@@ -45,3 +47,18 @@
     </dl>
   </div>
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a.scroll-to-contact').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        const target = document.getElementById('contact-form');
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  });
+</script>
